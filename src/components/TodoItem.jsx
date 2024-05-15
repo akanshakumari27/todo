@@ -11,6 +11,9 @@ import { FiEdit } from 'react-icons/fi';
 const TodoItem = ({ todo, index }) => {
   const dispatch = useDispatch();
 
+  // Here we are rendering the todo item with the necessary buttons to toggle, remove, mark as completed or incomplete
+  // We are also using the index to identify the todo item
+  // We are using the dispatch function to dispatch the actions to the reducer
   return (
     <li className="flex flex-col sm:flex-row sm:items-center justify-between border-b-2 py-2 gap-4">
       <div className="flex items-center">
