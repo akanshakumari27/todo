@@ -6,7 +6,7 @@ import FilterButtons from './FilterButtons';
 import { BsSearch, BsPlus } from 'react-icons/bs';
 import { addTodo, updateSearchTerm } from '../redux/actions';
 
-const Todo = () => {
+const Todo = () =>  {
   const todos = useSelector((state) => state.todos);
   const filter = useSelector((state) => state.filter);
   const dispatch = useDispatch();

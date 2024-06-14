@@ -10,7 +10,7 @@ My Vercel link: [https://todo-red-nu.vercel.app/](https://todo-red-nu.vercel.app
 - Filter tasks (All, Active, Completed)
 - Clear completed tasks
 
-## Technology Stack
+## Technology Stack   
 
 - **React**: Used for building the user interface
 - **Redux**: Used for state management

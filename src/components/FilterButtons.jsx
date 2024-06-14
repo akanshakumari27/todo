@@ -11,7 +11,7 @@ const FilterButtons = () => {
     dispatch(filterTodos(filter));
   };
 
-  return (
+  return  (
     <div className="flex space-x-4 items-center">
       <select
         className="text-sm px-2 py-1 rounded border border-gray-300 focus:outline-none"

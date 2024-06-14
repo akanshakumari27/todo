@@ -9,7 +9,7 @@ import {
   MARK_ALL_COMPLETED,
   UPDATE_SEARCH_TERM,
 } from './actionTypes';
-
+  
 const initialState = { todos: [], filter: 'ALL', searchTerm: '' };
 
 const todoReducer = (state = initialState, action) => {
